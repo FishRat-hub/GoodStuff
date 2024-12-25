@@ -4,8 +4,8 @@ import cv2
 import os
 
 # Paths
-data_yaml_path = r"C:\Users\SAINATH NIKAM\Desktop\CV&DL Lab\CV CODES\Final Practical Practice\Persian_Car_Plates_YOLOV8\data.yaml"
-raw_test_folder = r"C:\Users\SAINATH NIKAM\Desktop\CV&DL Lab\CV CODES\Final Practical Practice\Persian_Car_Plates_YOLOV8\extra"
+data_yaml_path = r"yaml path"
+raw_test_folder = r"yaml path"
 
 # Load YOLOv8 model
 model = YOLO('yolov8n.pt')  # Ensure yolov8n.pt is available locally
